@@ -115,7 +115,7 @@ export default defineNuxtConfig({
       projectUrl: "https://nova.alwaysliquid.com", // without trailing slash!
       punkMinterAddress: "", // punk domain minter contract address
       punkNumberOfPrices: 1, // number of different prices (based on domain length), usually 1 (price()) or 5 (price1char() - price5char())
-      punkTldAddress: "0x70Ac07C50131b7bb2c8Bd9466D8d2add30B7759f", // punk domain TLD address
+      punkTldAddress: "0x4087fb91A1fBdef05761C02714335D232a2Bf3a1", // punk domain TLD address
       randomPostsNumber: 1, // number of random post NFTs to show in the sidebar widget
       rpcCustom: process.env.RPC_CUSTOM || "https://nova.arbitrum.io/rpc", // Custom RPC URL
       showFeatures: { // show/hide features in sidebars (if you have too many "true", make the sidebar scrollable --> sidebarLeftSticky: false)
